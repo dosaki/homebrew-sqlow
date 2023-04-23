@@ -1,9 +1,9 @@
 class Sqlow < Formula
-  @@version = "0.0.5"
+  @@version = "0.0.6"
   desc "A CLI database schema migrator that doesn't care about versions"
   homepage "https://github.com/dosaki/sqlow"
   url "https://github.com/dosaki/sqlow/archive/refs/tags/#{@@version}.tar.gz"
-  sha256 "4c657bd27b672f2c7b2b1d9ccb6478eec2d77d1fe1c283d250fb2510b1dbe7a6"
+  sha256 "2ff7ca73e3e4f1090b9b79f3f3d8b698bae7e5e4a402518c17e7b00cb73bbe05"
   license "Apache Licence, Version 2.0"
   head "https://github.com/dosaki/sqlow"
   
