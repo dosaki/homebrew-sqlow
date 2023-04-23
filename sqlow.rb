@@ -1,5 +1,5 @@
 class Sqlow < Formula
-  @@version = "0.0.6"
+  @@version = "0.0.9"
   desc "A CLI database schema migrator that doesn't care about versions"
   homepage "https://github.com/dosaki/sqlow"
   url "https://github.com/dosaki/sqlow/archive/refs/tags/#{@@version}.tar.gz"
