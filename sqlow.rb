@@ -3,7 +3,7 @@ class Sqlow < Formula
   desc "A CLI database schema migrator that doesn't care about versions"
   homepage "https://github.com/dosaki/sqlow"
   url "https://github.com/dosaki/sqlow/archive/refs/tags/#{@@version}.tar.gz"
-  sha256 "2ff7ca73e3e4f1090b9b79f3f3d8b698bae7e5e4a402518c17e7b00cb73bbe05"
+  sha256 "a8ed64874395dcd04da982ed36dcc72689ec24e1aedd1b8e12027cd722bd2310"
   license "Apache Licence, Version 2.0"
   head "https://github.com/dosaki/sqlow"
   
