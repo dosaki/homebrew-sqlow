@@ -11,9 +11,8 @@ class Sqlow < Formula
   depends_on "go" => :build
 
   def install
-    ENV["GOPATH"] = buildpath
-    system "./build.sh", "--default", "--output=#{buildpath}/dist", "--version=#{@@version}", "--no-zip"
-    bin.install "#{buildpath}/dist/sqlow"
+    system "./build.sh", "--default", "--output=./dist", "--version=#{@@version}", "--no-zip"
+    bin.install "./dist/sqlow"
   end
 
   test do
